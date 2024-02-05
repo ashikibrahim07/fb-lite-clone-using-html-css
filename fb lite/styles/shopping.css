@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* NAV */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  margin-right: 10px;
+}
+
+nav i.fa-home,
+nav i.fa-users,
+nav i.fa-comment,
+nav i.fa-bell,
+nav i.fa-play-circle {
+  font-size: 20px;
+  color: black;
+}
+
+nav i.fa-shopping-cart {
+  color: blue;
+  font-size: 20px;
+}
+.marketplace-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1px;
+}
+
+.marketplace-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  margin-left: 7px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+}
+
+.search-circle {
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 0 5px;
+}
+.sections-container {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+.section {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.person-circle {
+  background-color: #f4f4f4;
+  color: black;
+  padding: 10px;
+  border-radius: 15px;
+}
+.inbox,
+.sell,
+.categories,
+.section-search {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+  color: black;
+}
+.section-title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.today-pick-title {
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 500;
+}
+
+.product-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.product-card {
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.product-image {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product-location {
+  color: #777;
+}
+
+@media (max-width: 768px) {
+  .product-image {
+    height: 100px;
+  }
+}
