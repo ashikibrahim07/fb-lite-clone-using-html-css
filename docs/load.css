@@ -14,7 +14,7 @@ body {
 .logo {
   width: 100px;
   height: 100px;
-  background: url("/images/fblitelogo-removebg-preview.png") no-repeat;
+  background: url("/fblitelogo-removebg-preview.png") no-repeat;
   background-size: contain;
   margin-bottom: 20px;
   cursor: pointer;
