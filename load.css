@@ -68,6 +68,10 @@ body {
 .bottom-bar1 img {
   width: 30px;
   margin-right: 5px;
+  
+}
+.bottom-bar1 a {
+  text-decoration: none;
 }
 
 @keyframes bounce {
