@@ -61,5 +61,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Attribution
 
 - Icons provided by [Font Awesome](https://fontawesome.com/).
+- - Pictures sourced from [Lorem Picsum](https://picsum.photos/).
 - Video covers provided by [Shutterstock](https://www.shutterstock.com/).
 - Videos sourced from [Coverr](https://coverr.co/).
