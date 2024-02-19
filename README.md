@@ -58,6 +58,10 @@ Before contributing, please read the [Contributing Guidelines](CONTRIBUTING.md).
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## Author 
+
+Ashik Ibrahim S
+
 ## Attribution
 
 - Icons provided by [Font Awesome](https://fontawesome.com/).
