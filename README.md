@@ -57,7 +57,7 @@ You can view the live demo of the project [here](https://ashikibrahim07.github.i
 ![Newsfeed](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(175).png)
 ![Friend Requests](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(177).png)
 ![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png)
-![Notifications](images/example.jpg)
+![Notifications](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(179).png)
 ![Marketplace](images/example.jpg)
 
 
