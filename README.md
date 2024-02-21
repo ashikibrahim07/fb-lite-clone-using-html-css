@@ -52,6 +52,15 @@ You can navigate to the Newsfeed by clicking on the FB logo in the `index.html`.
 
 You can view the live demo of the project [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
 
+## Snapshots
+![Loading page](images/example.jpg)
+![Newsfeed](images/example.jpg)
+![Friend Requests](images/example.jpg)
+![Messenger](images/example.jpg)
+![Notifications](images/example.jpg)
+![Marketplace](images/example.jpg)
+
+
 ## Attribution
 
 - Icons provided by [Font Awesome](https://fontawesome.com/).
