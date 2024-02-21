@@ -48,19 +48,9 @@ To run this project locally, follow these steps:
 
 You can navigate to the Newsfeed by clicking on the FB logo in the `index.html`. Then you will reach the Newsfeed where you can see a sample news feed and navigation bar at the top. You can use that nav bar to navigate to other parts of the clone like friends, messenger, notifications, videos, and shopping. Explore the various pages of the Facebook Lite Clone to experience the replicated functionalities.
 
-## Contributing
+# Live Demo
 
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
-
-Before contributing, please read the [Contributing Guidelines](CONTRIBUTING.md).
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Author 
-
-Ashik Ibrahim S
+You can view the live demo of the project [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
 
 ## Attribution
 
@@ -68,3 +58,20 @@ Ashik Ibrahim S
 -  Pictures sourced from [Lorem Picsum](https://picsum.photos/).
 - Video covers provided by [Shutterstock](https://www.shutterstock.com/).
 - Videos sourced from [Coverr](https://coverr.co/).
+
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+
+Before contributing, please read the [Contributing Guidelines](CONTRIBUTING.md).
+
+
+## Author 
+
+Ashik Ibrahim S
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
