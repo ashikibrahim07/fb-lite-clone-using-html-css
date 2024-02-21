@@ -52,12 +52,24 @@ You can navigate to the Newsfeed by clicking on the FB logo in the `index.html`.
 
 You can view the live demo of the project [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
 
-## Snapshots
+# Snapshots
+
+## Loading page
 ![Loading page](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(176).png "Loading page")
+
+## Newsfeed
 ![Newsfeed](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(175).png "Newsfeed")
+
+## Friend Requests
 ![Friend Requests](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(177).png "Friend Requests")
+
+## Messenger
 ![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png "Messenger")
+
+## Notifications
 ![Notifications](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(179).png "Notifications")
+
+## Marketplace
 ![Marketplace](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(181).png "Marketplace")
 
 
