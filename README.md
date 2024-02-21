@@ -53,12 +53,13 @@ You can navigate to the Newsfeed by clicking on the FB logo in the `index.html`.
 You can view the live demo of the project [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
 
 ## Snapshots
-![Loading page](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(176).png)
-![Newsfeed](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(175).png)
-![Friend Requests](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(177).png)
-![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png)
-![Notifications](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(179).png)
-![Marketplace](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(181).png)
+![Loading page](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(176).png "Loading page")
+![Newsfeed](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(175).png "Newsfeed")
+![Friend Requests](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(177).png "Friend Requests")
+![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png "Messenger")
+![Notifications](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(179).png "Notifications")
+![Marketplace](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(181).png "Marketplace")
+
 
 
 ## Attribution
