@@ -37,6 +37,14 @@ nav i.fa-home {
   font-size: 20px;
   margin-top: -10px;
 }
+nav i.fa-users:active,
+nav i.fa-comment:active,
+nav i.fa-bell:active,
+nav i.fa-play-circle:active,
+nav i.fa-shopping-cart:active,
+nav i.fa-home:active {
+  transform: scale(0.9);
+}
 .profile-icon {
   width: 50px;
   height: 50px;
