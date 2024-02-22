@@ -236,7 +236,11 @@ nav i.fa-home:active {
   width: 110px;
   height: 40px;
 }
-
+.like-box:active,
+.comment-box:active,
+.share-box:active {
+  transform: scale(0.9);
+}
 .like-box i,
 .comment-box i,
 .share-box i {
