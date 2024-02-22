@@ -157,7 +157,10 @@ nav i.fa-users {
   border-radius: 5px;
   cursor: pointer;
 }
-
+.confirm:active,
+.delete:active {
+  transform: scale(0.9);
+}
 .confirm {
   background-color: #1877f2;
   color: white;
