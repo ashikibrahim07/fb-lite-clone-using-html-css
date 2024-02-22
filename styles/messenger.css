@@ -37,6 +37,14 @@ nav i.fa-comment {
   color: blue;
   font-size: 20px;
 }
+nav i.fa-users:active,
+nav i.fa-comment:active,
+nav i.fa-bell:active,
+nav i.fa-play-circle:active,
+nav i.fa-shopping-cart:active,
+nav i.fa-home:active {
+  transform: scale(0.9);
+}
 
 .message-settings-search {
   display: flex;
