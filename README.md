@@ -86,7 +86,6 @@ You can view the live demo of the project [here](https://ashikibrahim07.github.i
 
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-Before contributing, please read the [Contributing Guidelines](CONTRIBUTING.md).
 
 
 ## Author 
