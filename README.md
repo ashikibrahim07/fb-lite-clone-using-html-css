@@ -16,7 +16,7 @@ Welcome to Facebook Lite Clone! This project is an attempt to replicate the core
 - [Live Demo](#live-demo)
 - [Snapshots](#snapshots)
   - [Loading page](#loading-page)
-  - [Newsfeed](#newsfeed)
+  - [Newsfeed Page](#newsfeed)
   - [Friend Requests](#friend-requests)
   - [Messenger](#messenger)
   - [Notifications](#notifications)
