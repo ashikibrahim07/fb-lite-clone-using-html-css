@@ -25,6 +25,7 @@ Welcome to Facebook Lite Clone! This project is an attempt to replicate the core
 - [Contributing](#contributing)
 - [Author](#author)
 - [License](#license)
+
 ## About
 
 Facebook Lite Clone is a simplified version of Facebook Lite designed using ONLY HTML and CSS. It aims to provide essential functionalities similar to Facebook Lite, such as basic navigation, a news feed, friends management, messaging, notifications, video watching, and shopping, all within a lightweight and responsive web interface. The project serves as a learning exercise in web development, demonstrating the creation of a functional web application without the need for complex server-side programming or external libraries/frameworks.
@@ -63,7 +64,7 @@ You can navigate to the Newsfeed by clicking on the FB logo in the `index.html`.
 
 # Live Demo
 
-You can view the live demo of the project [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
+You can view the live demo of the FB lite Clone [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
 
 # Snapshots
 
