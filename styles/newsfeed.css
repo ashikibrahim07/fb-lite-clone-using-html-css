@@ -354,7 +354,6 @@ nav i:active {
 .post-image {
   width: 100%;
   max-height: 400px;
-  object-fit: cover;
   border: none;
 }
 
