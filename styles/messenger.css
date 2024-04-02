@@ -50,7 +50,6 @@ nav i.fa-home:active {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid black;
   padding-top: 1px;
 }
 
@@ -84,8 +83,6 @@ nav i.fa-home:active {
 .active-section {
   overflow-x: auto;
   white-space: nowrap;
-  border-top: 5px solid lightgray;
-  border-bottom: 5px solid lightgray;
   padding-top: 10px;
   padding-bottom: 5px;
   display: flex;
