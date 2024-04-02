@@ -192,8 +192,6 @@ nav i:active {
 .story-section {
   overflow-x: auto;
   white-space: nowrap;
-  border-top: 5px solid lightgray;
-  border-bottom: 5px solid lightgray;
   padding-top: 10px;
   padding-bottom: 5px;
 }
