@@ -1,11 +1,11 @@
-# Facebook Lite Clone using HTML and CSS
+# Facebook Lite Clone using HTML & CSS
 
 Welcome to Facebook Lite Clone! This project is an attempt to replicate the core features and design of Facebook Lite using HTML and CSS.
 
 ## Technologies Used
-- `HTML`
-- `CSS`
-- `Font Awesome`
+- `HTML` for Structure.
+- `CSS` for Styling.
+- `Font Awesome` for Fonts.
   
 ## Table of Contents
 
@@ -33,11 +33,17 @@ Facebook Lite Clone is a simplified version of Facebook Lite designed using ONLY
 ## Features
 
 - **Basic Navigation**: The clone replicates the navigation bar found in Facebook Lite, allowing users to easily switch between different sections of the application.
+  
 - **Home Page with News Feed**: Users can view a sample news feed containing posts and updates from friends, similar to the experience on Facebook Lite.
+  
 - **Friends Page**: Users can manage their friends and view friend requests in a dedicated section of the application.
+  
 - **Messenger Page**: Users can exchange messages with friends using a simple messaging interface, mimicking the messaging functionality of Facebook Lite.
+  
 - **Notifications**: Users receive notifications for various activities, such as friend requests and post likes, which they can view in a centralized notifications page.
+  
 - **Video Page**: Users can watch sample videos within the application, providing entertainment and engagement similar to the video-watching experience on Facebook Lite.
+  
 - **Shopping Page**: Users can explore products and items for sale in a dedicated shopping section, enhancing the functionality and utility of the application.
 
 ## Installation
