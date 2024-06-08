@@ -2,6 +2,10 @@
 
 Welcome to Facebook Lite Clone! This project is an attempt to replicate the core features and design of Facebook Lite using HTML and CSS.
 
+# Live Demo
+
+You can view the live demo of the FB lite Clone [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
+
 ## Technologies Used
 - `HTML` for Structure.
 - `CSS` for Styling.
@@ -13,7 +17,6 @@ Welcome to Facebook Lite Clone! This project is an attempt to replicate the core
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Live Demo](#live-demo)
 - [Snapshots](#snapshots)
   - [Loading page](#loading-page)
   - [Newsfeed Page](#newsfeed)
@@ -68,9 +71,6 @@ To run this project locally, follow these steps:
 
 You can navigate to the Newsfeed by clicking on the FB logo in the `index.html`. Then you will reach the Newsfeed where you can see a sample news feed and navigation bar at the top. You can use that nav bar to navigate to other parts of the clone like friends, messenger, notifications, videos, and shopping. Explore the various pages of the Facebook Lite Clone to experience the replicated functionalities.
 
-# Live Demo
-
-You can view the live demo of the FB lite Clone [here](https://ashikibrahim07.github.io/fb-lite-clone-using-html-css/).
 
 # Snapshots
 
