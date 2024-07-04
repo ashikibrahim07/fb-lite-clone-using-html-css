@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Lite - Profile</title>
+    <link rel="stylesheet" href="../styles/profile.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="header-left">
+          <a href="../src/newsfeed.html" class="back-arrow">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h2 class="header-title">Profile</h2>
+        </div>
+        <a href="#" class="search-icon">
+          <i class="fas fa-search"></i>
+        </a>
+      </div>
+    </header>
+
+    <div class="profile-header">
+      <div class="cover-photo">
+        <img
+          src="https://picsum.photos/seed/picsum/800/200"
+          alt="Cover Photo"
+        />
+      </div>
+      <div class="profile-picture">
+        <img src="https://picsum.photos/id/22/200/300" alt="Profile Picture" />
+      </div>
+      <h1 class="profile-name">Leo</h1>
+      <p class="profile-frnds">
+        <span class="profile-frnds-num">700</span> friends
+      </p>
+      <p class="profile-bio">Just another Facebook Lite user</p>
+      <div class="profile-buttons">
+        <button class="add-story-button">
+          <i class="fas fa-plus"></i>&nbsp; Add to Story
+        </button>
+        <button class="edit-profile-button">
+          <i class="fas fa-pencil-alt"></i>&nbsp; Edit Profile
+        </button>
+        <button class="more-options-button">
+          <i class="fas fa-ellipsis-h"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="profile-nav">
+      <ul>
+        <li><a class="posts-list" href="#">Posts</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">Reels</a></li>
+      </ul>
+    </div>
+
+    <div class="follow-info">
+      <i class="fas fa-wifi"></i>
+      <span>Followed by <b>222 people</b></span>
+    </div>
+    <div class="follow-info">
+      &nbsp;
+      <i class="fas fa-ellipsis-h circle-ellipsis"></i>
+      <span> See more about yourself</span>
+    </div>
+    <div class="friends-container">
+      <div class="friends-header">
+        <h3 class="friends-title">Friends</h3>
+        <a href="#" class="see-all-link">See all</a>
+      </div>
+      <span class="friends-count">700 friends</span>
+      <div class="friends-list">
+        <div class="friend">
+          <img src="https://picsum.photos/id/1/500/300" alt="Friend" />
+          <span class="friend-name">Ashik</span>
+        </div>
+        <div class="friend">
+          <img src="https://picsum.photos/id/69/500/300" alt="Friend" />
+          <span class="friend-name">Ibrahim</span>
+        </div>
+        <div class="friend">
+          <img src="https://picsum.photos/id/65/500/300" alt="Friend" />
+          <span class="friend-name">Anu</span>
+        </div>
+      </div>
+      <div class="friends-list">
+        <div class="friend">
+          <img src="https://picsum.photos/id/33/500/300" alt="Friend" />
+          <span class="friend-name">Heisenberg</span>
+        </div>
+        <div class="friend">
+          <img src="https://picsum.photos/id/31/500/300" alt="Friend" />
+          <span class="friend-name">Tarantino</span>
+        </div>
+        <div class="friend">
+          <img src="https://picsum.photos/id/64/500/300" alt="Friend" />
+          <span class="friend-name">Emily</span>
+        </div>
+      </div>
+      <button class="find-friends-button">Find Friends</button>
+    </div>
+
+    <div class="status-update-container">
+      <h3 class="status-update-title">Posts</h3>
+      <div class="status-update-box">
+        <div class="status-update-header">
+          <img
+            src="https://picsum.photos/id/22/200/300"
+            alt="Profile Picture"
+            class="status-profile-picture"
+          />
+          <input
+            type="text"
+            placeholder="Post a status update"
+            class="status-input"
+            id="input-status"
+          />
+          <i class="fa-regular fa-images big-img" style="color: #0c0d0c"></i>
+        </div>
+        <div class="status-update-actions">
+          <button class="status-action">
+            <i class="fa-regular fa-images" style="color: #0cec09"></i>&nbsp;
+            Photo
+          </button>
+          <button class="status-action">
+            <i class="fa-solid fa-location-dot" style="color: #e6053d"></i
+            >&nbsp; Check in
+          </button>
+          <button class="status-action">
+            <i class="fa-solid fa-flag" style="color: #886dd9"></i>&nbsp; Life
+            event
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post Section -->
+    <div class="post-section">
+      <!-- Left Section -->
+      <div class="post-info">
+        <div class="post-profile">
+          <img
+            src="https://picsum.photos/id/22/200/300"
+            alt="Profile Picture in Posts Section"
+            width="20"
+          />
+        </div>
+        <div class="post-header">
+          <span class="post-name">Parthiban</span>
+          <div class="post-metadata">
+            <span class="post-time">1h ago</span>
+            <span class="post-dot"> &bull; </span>
+            <span class="post-privacy-icon">Public</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="post-options">
+        <span class="post-three-dots">&#8942;</span>
+      </div>
+    </div>
+
+    <!-- Caption and Image Section -->
+    <div class="post-content">
+      <p class="post-caption">Workplace....</p>
+      <img
+        class="post-image"
+        src="https://picsum.photos/id/9/800/300"
+        alt="Post Image"
+      />
+    </div>
+    <!-- Reaction section  -->
+    <div class="reaction-section">
+      <i class="fa fa-heart" style="color: red"></i>
+
+      <i class="fa fa-thumbs-up" style="color: blue"></i>
+      <span>15</span>
+    </div>
+
+    <div class="comment-share-box">
+      <div class="like-box">
+        <i class="fa fa-thumbs-up"></i>
+        <span>15</span>
+      </div>
+      <div class="comment-box">
+        <i class="fa fa-comment"></i>
+        <span>5</span>
+      </div>
+      <div class="share-box">
+        <i class="fa fa-share"></i>
+        <span>2</span>
+      </div>
+    </div>
+
+    <!-- Post Section -->
+    <div class="post-section">
+      <!-- Left Section -->
+      <div class="post-info">
+        <div class="post-profile">
+          <img
+            src="https://picsum.photos/id/22/200/300"
+            alt="Profile Picture in Posts Section"
+            width="20"
+          />
+        </div>
+        <div class="post-header">
+          <span class="post-name">Parthiban</span>
+          <div class="post-metadata">
+            <span class="post-time">21h ago</span>
+            <span class="post-dot"> &bull; </span>
+            <span class="post-privacy-icon">Public</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="post-options">
+        <span class="post-three-dots">&#8942;</span>
+      </div>
+    </div>
+
+    <!-- Caption and Image Section -->
+    <div class="post-content">
+      <p class="post-caption">Say Cheese.</p>
+      <img
+        class="post-image"
+        src="https://picsum.photos/id/91/800/300"
+        alt="Post Image"
+      />
+    </div>
+    <!-- Reaction section  -->
+    <div class="reaction-section">
+      <i class="fa fa-heart" style="color: red"></i>
+
+      <i class="fa fa-thumbs-up" style="color: blue"></i>
+      <span>61</span>
+    </div>
+
+    <div class="comment-share-box">
+      <div class="like-box">
+        <i class="fa fa-thumbs-up"></i>
+        <span>61</span>
+      </div>
+      <div class="comment-box">
+        <i class="fa fa-comment"></i>
+        <span>15</span>
+      </div>
+      <div class="share-box">
+        <i class="fa fa-share"></i>
+        <span>7</span>
+      </div>
+    </div>
+
+    <!-- Post Section -->
+    <div class="post-section">
+      <!-- Left Section -->
+      <div class="post-info">
+        <div class="post-profile">
+          <img
+            src="https://picsum.photos/id/22/800/300"
+            alt="Profile Picture in Posts Section"
+            width="20"
+          />
+        </div>
+        <div class="post-header">
+          <span class="post-name">Parthiban</span>
+          <div class="post-metadata">
+            <span class="post-time">1d ago</span>
+            <span class="post-dot"> &bull; </span>
+            <span class="post-privacy-icon">Public</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="post-options">
+        <span class="post-three-dots">&#8942;</span>
+      </div>
+    </div>
+
+    <!-- Caption and Image Section -->
+    <div class="post-content">
+      <p class="post-caption">All about yesterday.</p>
+      <img
+        class="post-image"
+        src="https://picsum.photos/id/103/800/300"
+        alt="Post Image"
+      />
+    </div>
+    <!-- Reaction section  -->
+    <div class="reaction-section">
+      <i class="fa fa-heart" style="color: red"></i>
+
+      <i class="fa fa-thumbs-up" style="color: blue"></i>
+      <span>154</span>
+    </div>
+
+    <div class="comment-share-box">
+      <div class="like-box">
+        <i class="fa fa-thumbs-up"></i>
+        <span>154</span>
+      </div>
+      <div class="comment-box">
+        <i class="fa fa-comment"></i>
+        <span>41</span>
+      </div>
+      <div class="share-box">
+        <i class="fa fa-share"></i>
+        <span>15</span>
+      </div>
+    </div>
+
+    <!-- Post Section -->
+    <div class="post-section">
+      <!-- Left Section -->
+      <div class="post-info">
+        <div class="post-profile">
+          <img
+            src="https://picsum.photos/id/22/200/300"
+            alt="Profile Picture in Posts Section"
+            width="20"
+          />
+        </div>
+        <div class="post-header">
+          <span class="post-name">Parthiban</span>
+          <div class="post-metadata">
+            <span class="post-time">3d ago</span>
+            <span class="post-dot"> &bull; </span>
+            <span class="post-privacy-icon">Public</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="post-options">
+        <span class="post-three-dots">&#8942;</span>
+      </div>
+    </div>
+
+    <!-- Caption and Image Section -->
+    <div class="post-content">
+      <p class="post-caption">Basic needs.</p>
+      <img class="post-image" src="../images/img-8.png" alt="Post Image" />
+    </div>
+    <!-- Reaction section  -->
+    <div class="reaction-section">
+      <i class="fa fa-heart" style="color: red"></i>
+
+      <i class="fa fa-thumbs-up" style="color: blue"></i>
+      <span>181</span>
+    </div>
+
+    <div class="comment-share-box">
+      <div class="like-box">
+        <i class="fa fa-thumbs-up"></i>
+        <span>181</span>
+      </div>
+      <div class="comment-box">
+        <i class="fa fa-comment"></i>
+        <span>55</span>
+      </div>
+      <div class="share-box">
+        <i class="fa fa-share"></i>
+        <span>10</span>
+      </div>
+    </div>
+  </body>
+</html>
