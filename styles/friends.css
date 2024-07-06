@@ -32,7 +32,6 @@ nav {
 
 .search-icon {
   font-size: 18px;
-
   color: black;
   cursor: pointer;
 }
@@ -43,10 +42,12 @@ nav {
   padding: 10px;
   margin: 0 5px;
 }
+
 .sections-container {
   display: flex;
   margin-top: 15px;
 }
+
 nav i.fa-home,
 nav i.fa-comment,
 nav i.fa-bell,
@@ -75,18 +76,19 @@ nav i.fa-users {
 
 .sections-container {
   display: flex;
-  margin-top: 15px;
 }
-
 .section {
   width: 109px;
   height: 39px;
-  margin-right: 15px;
   margin-left: 10px;
   padding: 10px;
-  background-color: #f4f4f4;
+  background-color: lightgray;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+.section a {
+  text-decoration: none;
+  color: #000;
 }
 
 .section-title {
@@ -109,6 +111,7 @@ nav i.fa-users {
   font-weight: bold;
   color: black;
 }
+
 .see-all {
   font-size: 15px;
   font-weight: 200;
@@ -117,8 +120,7 @@ nav i.fa-users {
 
 .friend-request {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
   padding: 10px;
   border-radius: 10px;
   margin-top: 15px;
@@ -126,28 +128,50 @@ nav i.fa-users {
 }
 
 .profile-pic {
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
 }
 
 .profile-info {
-  margin-left: 10px;
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .mutual-friends {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
-.mutual-friends-icon {
-  font-size: 18px;
-  color: blue;
+.mutual-friends {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.mutual-friend-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
   margin-right: 5px;
 }
 
 .mutual-friends-count {
   font-size: 14px;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .confirm,
@@ -156,27 +180,20 @@ nav i.fa-users {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 14px;
+  width: 60%;
 }
-.confirm:active,
-.delete:active {
-  transform: scale(0.9);
-}
+
 .confirm {
   background-color: #1877f2;
   color: white;
   font-weight: 500;
-  font-size: 15px;
-  margin-top: 10px;
-  width: 50%;
 }
 
 .delete {
   background-color: lightgray;
   color: black;
   font-weight: 500;
-  font-size: 15px;
-  margin-top: 10px;
-  width: 50%;
 }
 
 .request-time {
@@ -186,69 +203,148 @@ nav i.fa-users {
   top: 10px;
   right: 10px;
 }
-
-@media (max-width: 600px) {
-  .friend-request {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profile-info {
-    margin-top: 10px;
-    padding-left: 100px;
-  }
-
-  .mutual-friends {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .mutual-friends-icon {
-    margin-bottom: 0;
-    margin-right: 5px;
-  }
-
-  .confirm,
-  .delete {
-    width: 100%;
-    margin-top: 10px;
-  }
-
-  .request-time {
-    top: 0;
-    right: 0;
-    margin-top: 10px;
-  }
+.confirm:active,
+.delete:active {
+  transform: scale(0.9);
 }
 
-@media (max-width: 400px) {
-  .friend-request {
-    padding: 10px;
-    flex-direction: column;
-    align-items: center;
-  }
+.import-contacts-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  width: auto;
+  margin-top: 20px;
+  position: relative;
+}
 
-  .profile-info {
-    margin-top: 10px;
-    padding-left: 0;
-  }
+.import-contacts-left {
+  margin-bottom: 10px;
+}
 
-  .mutual-friends {
-    margin-top: 10px;
-  }
+.import-contacts-left h2 {
+  font-size: 15px;
+  color: #333;
+  margin: 0;
+}
 
-  .mutual-friends-icon {
-    margin-bottom: 5px;
-  }
+.import-contacts-text {
+  margin-bottom: 20px;
+}
 
-  .profile-pic {
-    order: -1;
-    margin-right: 10px;
-  }
+.import-contacts-text p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
 
-  .request-time {
-    top: 0;
-    right: 0;
-    margin-top: 10px;
-  }
+.import-contacts-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.get-started {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.get-started:hover {
+  background-color: #165cb2;
+}
+
+/* People you may know */
+.people-you-may-know-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.people-you-may-know {
+  display: flex;
+  align-items: flex-start;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+
+.profile-pic {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mutual-friends {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.mutual-friends {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.mutual-friend-pic {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.mutual-friends-count {
+  font-size: 14px;
+  color: #555;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.add-friend,
+.remove {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 60%;
+}
+
+.add-friend {
+  background-color: #1877f2;
+  color: white;
+  font-weight: 500;
+}
+
+.remove {
+  background-color: lightgray;
+  color: black;
+  font-weight: 500;
 }

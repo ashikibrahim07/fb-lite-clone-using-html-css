@@ -181,49 +181,38 @@ nav i.fa-home:active {
   text-align: center;
   line-height: 30px;
 }
+
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
-  margin: 20px auto;
-  padding-left: 15px;
-  background-color: #fff;
+  gap: 10px;
+  padding: 20px;
 }
 
 .user {
   display: flex;
   align-items: center;
-  justify-content: left;
-  margin-bottom: 15px;
+  gap: 10px;
+  padding: 10px 0;
 }
 
 .user img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-right: 10px;
-  overflow: hidden;
+  object-fit: cover;
 }
 
 .user-info {
-  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .user-name {
-  font-weight: 600;
-  color: black;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .random-message {
-  border-radius: 10px;
-}
-
-.random-message:last-child {
-  margin-bottom: 0;
-}
-@media screen and (min-width: 768px) {
-  .container {
-    margin: 20px;
-    padding: 0%;
-  }
+  color: #555;
 }

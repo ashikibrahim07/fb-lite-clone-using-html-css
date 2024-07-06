@@ -50,17 +50,22 @@ body {
   padding: 10px;
   text-align: center;
   position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.bottom-bar {
+  bottom: 50px;
+}
+
+.bottom-bar1 {
+  bottom: 0;
+}
+
 .bottom-bar p {
   margin: 0;
-  margin-bottom: 50px;
 }
 
 .bottom-bar1 span {
