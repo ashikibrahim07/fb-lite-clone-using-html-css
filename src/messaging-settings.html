@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messaging Settings | Facebook Lite Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        background-color: white;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+      }
+      .messaging-settings {
+        margin-left: 10px;
+      }
+      .messaging-settings-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5px 10px;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .messaging-settings-left {
+        display: flex;
+        align-items: center;
+      }
+
+      .messaging-settings-header a {
+        text-decoration: none;
+        color: #000;
+        font-size: 20px;
+      }
+
+      .status-container {
+        display: flex;
+        align-items: center;
+        padding: 15px;
+      }
+
+      .status-icon {
+        font-size: 24px;
+        margin-right: 10px;
+        color: #333;
+      }
+
+      .status-text {
+        font-size: 14px;
+        color: #333;
+        flex-grow: 1;
+        font-weight: bold;
+      }
+
+      .status-info {
+        font-size: 14px;
+        color: #777;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="messaging-settings-header">
+        <div class="messaging-settings-left">
+          <a href="./messenger.html"><i class="fas fa-arrow-left"></i></a>
+          <h4 class="messaging-settings">Messaging settings</h4>
+        </div>
+      </div>
+    </div>
+    <div class="status-container">
+      <i class="fa-solid fa-globe status-icon" style="color: #121212"></i>
+      <div class="status-text">Active status</div>
+      <div class="status-info">On</div>
+    </div>
+    <div class="status-container">
+      <i class="fa-solid fa-bell status-icon" style="color: #121212"></i>
+      <div class="status-text">Messaging notifications</div>
+    </div>
+    <div class="status-container">
+      <i class="fa-solid fa-comments status-icon" style="color: #121212"></i>
+      <div class="status-text">Message requests</div>
+    </div>
+    <div class="status-container">
+      <i class="fa-solid fa-box-archive status-icon" style="color: #121212"></i>
+      <div class="status-text">Archive</div>
+    </div>
+    <div class="status-container">
+      <i class="fa-solid fa-shield status-icon" style="color: #0f0f0f"></i>
+      <div class="status-text">Privacy & safety</div>
+    </div>
+  </body>
+</html>
