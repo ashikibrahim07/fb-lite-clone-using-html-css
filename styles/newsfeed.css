@@ -19,26 +19,25 @@ header {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation */
 nav {
   background-color: #fff;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
   padding: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 100%;
 }
 nav i {
   margin-right: 5px;
 }
 nav i.fa-users,
-nav i.fa-comment,
+nav i.fa-facebook-messenger,
 nav i.fa-bell,
 nav i.fa-play-circle,
 nav i.fa-shopping-cart,
@@ -154,8 +153,8 @@ nav i:active {
   margin-bottom: 15px;
 }
 .icons-3 span {
-  font-size: 10px;
-  font-style: normal;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 0;
   padding-right: 10px;
 }

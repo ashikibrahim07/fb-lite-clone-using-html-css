@@ -33,7 +33,7 @@ nav i.fa-shopping-cart {
   color: black;
 }
 
-nav i.fa-comment {
+nav i.fa-facebook-messenger {
   color: blue;
   font-size: 20px;
 }
@@ -230,6 +230,6 @@ nav i.fa-home:active {
 
 .blue-tick {
   color: #1877f2;
-  font-size: 20px;
+  font-size: 15px;
   margin-right: 5px;
 }
