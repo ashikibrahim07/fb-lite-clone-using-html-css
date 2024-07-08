@@ -192,33 +192,44 @@ nav i.fa-home:active {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 20px;
+  padding: 5px;
 }
 
 .user {
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 10px 0;
+  padding: 5px;
+  justify-content: space-between;
 }
 
 .user img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  object-fit: cover;
+  margin-right: 10px;
 }
 
 .user-info {
-  display: flex;
-  flex-direction: column;
+  flex-grow: 1;
 }
 
 .user-name {
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
 }
 
 .random-message {
-  color: #555;
+  font-size: 14px;
+  color: gray;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.blue-tick {
+  color: #1877f2;
+  font-size: 20px;
+  margin-right: 5px;
 }
