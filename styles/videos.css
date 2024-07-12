@@ -54,7 +54,7 @@ nav i.fa-home:active {
 /* VIDEOS PERSON DOWNLOAD SEARCH */
 .videos-search-person-circle {
   padding-top: 5px;
-  margin-top: 5px;
+  margin-top: 3px;
   display: flex;
   align-items: center;
   justify-content: space-between;
