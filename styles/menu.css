@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f2f5;
+  margin-top: 100px;
 }
 
 .menu-header {
@@ -10,6 +11,12 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  position: fixed;
+  background-color: #f0f2f5;
+  width: 90%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 .menu-left {

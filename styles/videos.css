@@ -6,6 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 100px;
 }
 /* NAV */
 nav {
@@ -13,11 +14,16 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #fff;
-  padding: 10px;
+  padding: 15px;
   width: 100%;
   margin-top: 15px;
   margin-bottom: 5px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  margin-top: 0;
 }
 
 nav a {
@@ -47,11 +53,18 @@ nav i.fa-home:active {
 }
 /* VIDEOS PERSON DOWNLOAD SEARCH */
 .videos-search-person-circle {
-  padding-top: 15px;
+  padding-top: 5px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 1px;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
 }
 
 .videos-title {
