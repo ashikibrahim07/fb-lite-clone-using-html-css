@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+
+Sitemap: https://fb-lite-clone.netlify.app/sitemap.xml
