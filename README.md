@@ -1,4 +1,4 @@
-# Facebook Lite Clone using HTML & CSS
+# Facebook Lite Clone only using HTML & CSS
 
 Welcome to Facebook Lite Clone! This project is an attempt to replicate the core features and design of Facebook Lite using HTML and CSS.
 
